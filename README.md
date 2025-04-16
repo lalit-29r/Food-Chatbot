@@ -34,7 +34,7 @@ Before running the application, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/restaurant-order-system.git
+   git clone https://github.com/lalit-29r/Food-Chatbot.git
    cd restaurant-order-system
    ```
 
