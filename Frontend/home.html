@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Indian Restaurant</h1>
+            <nav>
+                <a href="#home">HOME</a> |
+                <a href="#menu">MENU</a> |
+                <a href="#location">LOCATION</a> |
+                <a href="#aboutus">ABOUT US</a> |
+                <a href="#contactus">CONTACT US</a>
+            </nav>
+        </header>
+
+        <section id="home", class="home">
+            <img src="Images/banner.jpg" alt="Restaurant Banner">
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="grid-container">
+              <img src="Images/samosa.png" alt="Samosa" />
+              <img src="Images/pav_bhaji.png" alt="Pav Bhaji" />
+              <img src="Images/chole_bhature.png" alt="Chole Bhature" />
+              <img src="Images/mango_lassi.png" alt="Mango Lassi" />
+              <img src="Images/masala_dosa.png" alt="Masala Dosa" />
+              <img src="Images/rava_dosa.png" alt="Rava Dosa" />
+              <img src="Images/veg_biryani.png" alt="Biryani" />
+              <img src="Images/pizza.png" alt="Pizza" />
+              <img src="Images/vada_pav.png" alt="Vada Pav" />
+            </div>
+          </section>
+          
+
+        <section id="location">
+            <h2>Location</h2>
+            <p>📍 Indian Restaurant, 17 Spice Lane, Mumbai, India</p>
+        </section>
+
+        <section id="aboutus">
+            <h2>About Us</h2>
+            <p>Welcome to Indian Restaurant – your favorite destination for delicious and quick meals!</p>
+        </section>
+
+        <section id="contactus">
+            <h2>Contact Us</h2>
+            <p>Got questions? Want to place an order? Call us at +91 1234567890 or email us at info@indianrestaurant.com</p>
+        </section>
+    </div>
+
+    <!-- Dialogflow Chatbot -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="Orderly"
+        agent-id="f23a29c9-efa0-4cf7-a584-67da1d494d26"
+        language-code="en"
+    ></df-messenger>
+</body>
+</html>
